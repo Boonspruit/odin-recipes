@@ -1,4 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+    
+
+#main-container {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    
+}
+
+
+#list, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.chef-pic {
+    width: 25%;
+}
+
+.food-pic {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
